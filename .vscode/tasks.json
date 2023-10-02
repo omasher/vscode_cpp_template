@@ -3,10 +3,10 @@
         {
             "type": "cppbuild",
             "label": "C/C++: g++ build active file",
-            "command": "/usr/bin/g++",
+            "command": "g++-13",
             "args": [
                 "--std",
-                "c++20",
+                "c++2b",
                 "-fdiagnostics-color=always",
                 "-g",
                 "${workspaceFolder}/*.cpp",
